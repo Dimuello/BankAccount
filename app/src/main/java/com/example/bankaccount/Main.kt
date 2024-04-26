@@ -10,6 +10,6 @@ fun main() {
 
     myBankAccount.displayTransactionHistory()
 
-    println("Your balance is: ${myBankAccount.balance}")
+    println("Your balance is: $${myBankAccount.balance}")
 
 }
