@@ -6,12 +6,12 @@ class BankAccount(val accountHolder: String, var balance: Double) {
 
     fun deposit(amount: Double) {
         balance += amount
-        println("Deposited $amount")
+        println("You deposited $amount")
     }
     fun withdraw(amount: Double) {
         if (balance >= amount) {
             balance -= amount
-            println("Withdrew $amount")
+            println("You withdrew $amount")
         } else {
             println("You haven't enough money on your balance")
         }
