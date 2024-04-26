@@ -11,6 +11,7 @@ class BankAccount(val accountHolder: String, var balance: Double) {
     fun withdraw(amount: Double) {
         if (balance >= amount) {
             balance -= amount
+            println("Withdrew $amount")
         } else {
             println("You haven't enough money on your balance")
         }
