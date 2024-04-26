@@ -2,7 +2,7 @@ package com.example.bankaccount
 
 fun main() {
 
-    val myBankAccount = BankAccount("Dmytro Zeliak", 500.0)
+    val myBankAccount = BankAccount("Dmytro", 500.0)
 
     myBankAccount.deposit(50.0)
     myBankAccount.withdraw(150.0)
